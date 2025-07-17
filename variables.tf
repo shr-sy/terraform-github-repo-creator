@@ -10,8 +10,8 @@ variable "github_owner" {
   description = "Your GitHub username or org"
 }
 
-variable "repo_name" {
-  type        = string
-  description = "Name of the GitHub repository to create"
-}
+#variable "repo_name" {
+#type        = string
+#  description = "Name of the GitHub repository to create"
+#}
 
