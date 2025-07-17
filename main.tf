@@ -5,7 +5,7 @@ provider "github" {
 }
 
 resource "github_repository" "example" {
-  name        = demo-repo
+  name        = "demo-repo"
   description = "This repo is created using Terraform in HCP Workspace"
   visibility  = "private"
   auto_init   = true
